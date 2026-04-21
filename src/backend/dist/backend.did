@@ -1,0 +1,42 @@
+type Stats = 
+ record {
+   customers: nat;
+   satisfaction: nat;
+   totalProducts: nat;
+   yearsInnovation: nat;
+ };
+type ProductId = text;
+type Product = 
+ record {
+   category: Category;
+   description: text;
+   featured: bool;
+   id: ProductId;
+   imageEmoji: text;
+   name: text;
+   price: nat;
+ };
+type Category = 
+ variant {
+   accessories;
+   audio;
+   computing;
+   hometech;
+   mobile;
+   wearables;
+ };
+type CartItem = 
+ record {
+   productId: ProductId;
+   quantity: nat;
+ };
+service : {
+  addToCart: (productId: text) -> ();
+  clearCart: () -> ();
+  getCart: () -> (vec CartItem) query;
+  getFeaturedProducts: () -> (vec Product) query;
+  getProductById: (id: text) -> (opt Product) query;
+  getProducts: () -> (vec Product) query;
+  getStats: () -> (Stats) query;
+  removeFromCart: (productId: text) -> ();
+}

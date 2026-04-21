@@ -1,0 +1,25 @@
+{
+  "overview": "A premium luxury tech gadgets ecommerce website with cinematic animations, glassmorphism UI, and ultra-modern design inspired by Apple, Samsung, Tesla, and Nothing.",
+  "features": [
+    "Cinematic hero section with floating product showcase and spotlight effects",
+    "Unique add-to-cart animation with product fly-to-cart and ripple feedback",
+    "Glassmorphism product cards with cursor-responsive hover reflections",
+    "Premium horizontal product slider with auto-scroll",
+    "Animated stats counter with scroll-triggered counting",
+    "Luxury testimonial cards with glass effects",
+    "Futuristic FAQ accordion with expanding glass panels",
+    "Floating particles and layered gradient backgrounds",
+    "Champagne gold accent palette on deep matte black and titanium base"
+  ],
+  "category": "ecommerce",
+  "tags": [
+    "luxury",
+    "ecommerce",
+    "tech",
+    "premium",
+    "glassmorphism",
+    "animations",
+    "dark-theme"
+  ],
+  "last_updated": "2026-04-21T19:05:40.484Z"
+}
